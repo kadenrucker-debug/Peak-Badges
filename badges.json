@@ -1,0 +1,642 @@
+[
+  {
+    "id": "participation-badge",
+    "name": "Participation Badge",
+    "description": "Have a friend escape the island without you.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb. Bring at least one teammate where the condition requires another scout.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Have a friend escape the island without you. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "beachcomber-badge",
+    "name": "Beachcomber Badge",
+    "description": "Climb past the SHORE.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Shore",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past the SHORE. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "trailblazer-badge",
+    "name": "Trailblazer Badge",
+    "description": "Climb past the TROPICS.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Tropics",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past the TROPICS. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "alpinist-badge",
+    "name": "Alpinist Badge",
+    "description": "Climb past the ALPINE.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Alpine",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past the ALPINE. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "volcanology-badge",
+    "name": "Volcanology Badge",
+    "description": "Climb past the CALDERA.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Caldera",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past the CALDERA. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "peak-badge",
+    "name": "Peak Badge",
+    "description": "Reach the PEAK.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Peak",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Reach the PEAK. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "cooking-badge",
+    "name": "Cooking Badge",
+    "description": "Cook 20 meals at campfires.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Any",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Cook 20 meals at campfires. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "happy-camper-badge",
+    "name": "Happy Camper Badge",
+    "description": "Receive 5 Morale Boosts from campfires.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Any",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Receive 5 Morale Boosts from campfires. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "bouldering-badge",
+    "name": "Bouldering Badge",
+    "description": "Place 10 pitons.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Any",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Place 10 pitons. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "toxicology-badge",
+    "name": "Toxicology Badge",
+    "description": "Restore 200 total poison by using items.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Restore 200 total poison by using items. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "foraging-badge",
+    "name": "Foraging Badge",
+    "description": "Eat 5 different berries in a single expedition.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb. This must be completed in one expedition.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Eat 5 different berries in a single expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "esoterica-badge",
+    "name": "Esoterica Badge",
+    "description": "Obtain a mystical item.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Obtain a mystical item. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "lone-wolf-badge",
+    "name": "Lone Wolf Badge",
+    "description": "Escape the island in a solo expedition.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Escape the island in a solo expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "clutch-badge",
+    "name": "Clutch Badge",
+    "description": "Resurrect 3 scouts in a single expedition.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition. This must be completed in one expedition. Bring at least one teammate where the condition requires another scout.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Resurrect 3 scouts in a single expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "balloon-badge",
+    "name": "Balloon Badge",
+    "description": "Escape the island without taking fall damage.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Escape the island without taking fall damage. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "leave-no-trace-badge",
+    "name": "Leave No Trace Badge",
+    "description": "Escape the island without placing anything on the mountain.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Escape the island without placing anything on the mountain. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "hasty-badge",
+    "name": "Hasty Badge",
+    "description": "Escape the island in under an hour.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Escape the island in under an hour. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "bing-bong-badge",
+    "name": "Bing Bong Badge",
+    "description": "Help Bing Bong escape the island.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Help Bing Bong escape the island. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "naturalist-badge",
+    "name": "Naturalist Badge",
+    "description": "Escape the island without eating any packaged food.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Escape the island without eating any packaged food. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "gourmand-badge",
+    "name": "Gourmand Badge",
+    "description": "Escape after cooking and eating a coconut half, honeycomb, yellow winterberry, and egg.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Escape after cooking and eating a coconut half, honeycomb, yellow winterberry, and egg. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "mycology-badge",
+    "name": "Mycology Badge",
+    "description": "Eat four different non-toxic mushrooms in a single expedition.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb. This must be completed in one expedition.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Eat four different non-toxic mushrooms in a single expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "first-aid-badge",
+    "name": "First Aid Badge",
+    "description": "Heal friends for 100 points of injury in a single expedition.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb. This must be completed in one expedition. Bring at least one teammate where the condition requires another scout.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Heal friends for 100 points of injury in a single expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "survivalist-badge",
+    "name": "Survivalist Badge",
+    "description": "Escape the island without ever losing consciousness.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Escape the island without ever losing consciousness. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "animal-serenading-badge",
+    "name": "Animal Serenading Badge",
+    "description": "Play the bugle for a capybara.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Alpine / Mesa",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Play the bugle for a capybara. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "arborist-badge",
+    "name": "Arborist Badge",
+    "description": "Reach the top of a really big tree.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Tropics",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Reach the top of a really big tree. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "mentorship-badge",
+    "name": "Mentorship Badge",
+    "description": "Have a 1-on-1 with the Scoutmaster.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb. Bring at least one teammate where the condition requires another scout.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Have a 1-on-1 with the Scoutmaster. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "knot-tying-badge",
+    "name": "Knot Tying Badge",
+    "description": "Place 100m of rope in a single expedition.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb. This must be completed in one expedition.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Place 100m of rope in a single expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "emergency-preparedness-badge",
+    "name": "Emergency Preparedness Badge",
+    "description": "Heal an unconscious friend with an item to save them from death.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb. Bring at least one teammate where the condition requires another scout.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Heal an unconscious friend with an item to save them from death. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "high-altitude-badge",
+    "name": "High Altitude Badge",
+    "description": "Climb 5000m total.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb 5000m total. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "plunderer-badge",
+    "name": "Plunderer Badge",
+    "description": "Open 15 luggages in a single expedition.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb. This must be completed in one expedition.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Open 15 luggages in a single expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "bookworm-badge",
+    "name": "Bookworm Badge",
+    "description": "Read the Scoutmaster's final journal entry.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition. Bring at least one teammate where the condition requires another scout.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Read the Scoutmaster's final journal entry. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "endurance-badge",
+    "name": "Endurance Badge",
+    "description": "Climb 50m upwards without touching the ground.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb 50m upwards without touching the ground. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "nomad-badge",
+    "name": "Nomad Badge",
+    "description": "Climb past the MESA.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Mesa",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past the MESA. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "ultimate-badge",
+    "name": "Ultimate Badge",
+    "description": "Catch a Flying Disc from 100m away.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Catch a Flying Disc from 100m away. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "cool-cucumber-badge",
+    "name": "Cool Cucumber Badge",
+    "description": "Climb past the MESA without ever having more than 10% Heat.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Mesa",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past the MESA without ever having more than 10% Heat. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "needlepoint-badge",
+    "name": "Needlepoint Badge",
+    "description": "Have a lot of cactuses stuck to you.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Mesa",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Have a lot of cactuses stuck to you. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "aeronautics-badge",
+    "name": "Aeronautics Badge",
+    "description": "Achieve flight.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Achieve flight. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "24-karat-badge",
+    "name": "24 Karat Badge",
+    "description": "Offer The Kiln a worthy sacrifice.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Mesa / Kiln",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Offer The Kiln a worthy sacrifice. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "resourcefulness-badge",
+    "name": "Resourcefulness Badge",
+    "description": "Give in to your hunger.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Give in to your hunger. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "daredevil-badge",
+    "name": "Daredevil Badge",
+    "description": "Shoot across the MESA canyon in a Scout Cannon.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb. Bring at least one teammate where the condition requires another scout.",
+    "biome": "Mesa",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Shoot across the MESA canyon in a Scout Cannon. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "megaentomology-badge",
+    "name": "Megaentomology Badge",
+    "description": "Survive an Antlion attack.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Mesa",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Survive an Antlion attack. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "astronomy-badge",
+    "name": "Astronomy Badge",
+    "description": "Look a little too closely at the blazing sun.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Mesa",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Look a little too closely at the blazing sun. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "bundled-up-badge",
+    "name": "Bundled Up Badge",
+    "description": "Climb past the ALPINE without ever having more than 20% Cold.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Alpine",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past the ALPINE without ever having more than 20% Cold. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "forestry-badge",
+    "name": "Forestry Badge",
+    "description": "Climb past the ROOTS.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Roots",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past the ROOTS. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "tread-lightly-badge",
+    "name": "Tread Lightly Badge",
+    "description": "Climb past the ROOTS without ever having more than 25% spores.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Roots",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past the ROOTS without ever having more than 25% spores. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "web-security-badge",
+    "name": "Web Security Badge",
+    "description": "Escape a spider's web and survive.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Roots",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Escape a spider's web and survive. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "undead-encounter-badge",
+    "name": "Undead Encounter Badge",
+    "description": "Cure yourself from a zombie bite.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Roots",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Cure yourself from a zombie bite. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "advanced-mycology-badge",
+    "name": "Advanced Mycology Badge",
+    "description": "Try all 5 types of Shroomberry in a single expedition.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition. This must be completed in one expedition.",
+    "biome": "Roots",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Try all 5 types of Shroomberry in a single expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "disaster-response-badge",
+    "name": "Disaster Response Badge",
+    "description": "Pull an unconscious friend 30m with the Rescue Claw.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition. Bring at least one teammate where the condition requires another scout.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Pull an unconscious friend 30m with the Rescue Claw. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "calcium-intake-badge",
+    "name": "Calcium Intake Badge",
+    "description": "Block 100 total damage with Fortified Milk.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Block 100 total damage with Fortified Milk. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "competitive-eating-badge",
+    "name": "Competitive Eating Badge",
+    "description": "Eat 3 Hot Dogs in 5 seconds or less.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Eat 3 Hot Dogs in 5 seconds or less. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "applied-esoterica-badge",
+    "name": "Applied Esoterica Badge",
+    "description": "Resurrect a friend using unholy means.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition. Bring at least one teammate where the condition requires another scout.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Resurrect a friend using unholy means. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "mycoacrobatics-badge",
+    "name": "Mycoacrobatics Badge",
+    "description": "Bounce up 40m off a mushroom.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Roots",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Bounce up 40m off a mushroom. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "cryptogastronomy-badge",
+    "name": "Cryptogastronomy Badge",
+    "description": "Cook and eat a Mandrake.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Roots",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Cook and eat a Mandrake. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "rule-zero-badge",
+    "name": "Rule Zero Badge",
+    "description": "Free the Scoutmaster's soul.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition. Bring at least one teammate where the condition requires another scout.",
+    "biome": "Gloom / Citadel",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Free the Scoutmaster's soul. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "well-rested-badge",
+    "name": "Well Rested Badge",
+    "description": "Consume The Early Worm.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb.",
+    "biome": "Gloom",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Consume The Early Worm. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "wanderer-badge",
+    "name": "Wanderer Badge",
+    "description": "Climb past the GLOOM.",
+    "tip": "Focus on this during a normal expedition; the requirement is usually compatible with ordinary progression.",
+    "biome": "Gloom",
+    "difficulty": "Easy",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past the GLOOM. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "last-resort-badge",
+    "name": "Last Resort Badge",
+    "description": "Heal over 75% damage at once using the Ritual Dagger.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Gloom / Citadel",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Heal over 75% damage at once using the Ritual Dagger. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "bellringer-badge",
+    "name": "Bellringer Badge",
+    "description": "Ring 5 Belltowers in the GLOOM in a single expedition.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition. This must be completed in one expedition.",
+    "biome": "Gloom",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Ring 5 Belltowers in the GLOOM in a single expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "archery-badge",
+    "name": "Archery Badge",
+    "description": "Remove 10 arrows from yourself in a single expedition.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition. This must be completed in one expedition.",
+    "biome": "Citadel",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Remove 10 arrows from yourself in a single expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "medieval-history-badge",
+    "name": "Medieval History Badge",
+    "description": "Climb past THE CITADEL without being hit by any traps.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Citadel",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Climb past THE CITADEL without being hit by any traps. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "jester-badge",
+    "name": "Jester Badge",
+    "description": "Open 2 Clown Luggage in a single expedition.",
+    "tip": "Plan the required item or action before the run and keep track of progress as you climb. This must be completed in one expedition.",
+    "biome": "Any",
+    "difficulty": "Medium",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Open 2 Clown Luggage in a single expedition. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "exorcist-badge",
+    "name": "Exorcist Badge",
+    "description": "Burn up the Big Ghost in the GLOOM.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Gloom",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Burn up the Big Ghost in the GLOOM. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  },
+  {
+    "id": "hang-gliding-badge",
+    "name": "Hang Gliding Badge",
+    "description": "Fly 100m with the Glider without touching the ground.",
+    "tip": "Build the expedition around this badge. Coordinate with teammates and avoid actions that can invalidate the condition.",
+    "biome": "Any",
+    "difficulty": "Hard",
+    "icon": "assets/badge-placeholder.svg",
+    "details": "Goal: Fly 100m with the Glider without touching the ground. Badge data is based on current public PEAK badge references reviewed for the Final Ascent era. In-game wording should be treated as authoritative after patches."
+  }
+]
